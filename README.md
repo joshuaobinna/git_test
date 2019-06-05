@@ -1,1 +1,1 @@
-This is Josh's first git project
+From The Odin Project [curriculum] (http://wwww.theodinproject.com/courses/wed-development-101/lessons/html-css)
