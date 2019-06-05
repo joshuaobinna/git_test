@@ -1,0 +1,74 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+#main-div {
+    width: 50%;
+    margin: 10% 25%;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.icon {
+width: 20px;
+}
+
+.profile-pix {
+    width: 37px;
+    border-radius: 50%;
+    padding-top: -5px;
+}
+
+.nav-div li {
+    word-spacing: 3px;
+    margin-left: 15px;
+}
+
+.nav-div li a {
+    color: black !important;
+}
+
+.nav-div li button {
+    background-color: blue;
+    color: white !important;
+}
+.nav-div{
+
+    display: flex;
+    flex-direction: row;
+    word-spacing: 7px;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+/* ul li {
+    display: inline-block;
+    margin-top: 5px;
+} */
+
+.inputs {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 36px;
+    border: 0;
+    border-radius: 20px;
+    background-color: lightgray;
+    margin-top: 26px;
+}
+/* .nav-div {
+    display: flex;
+    flex-direction: row;
+    word-spacing: 10px;
+    justify-content: space-evenly;
+    float: right;
+} */
+/* .nav-div li {
+    display: inline-block;
+    padding-top: -10px;
+} */
