@@ -79,7 +79,6 @@ width: 20px;
 }
 
 .footer-nav  {
-    /* margin: 0 auto; */
     display: row;
     flex-direction: row;
     background-color: whitesmoke;
@@ -98,14 +97,3 @@ width: 20px;
     padding-right: 5px;
     float: right;
 }
-/* .nav-div {
-    display: flex;
-    flex-direction: row;
-    word-spacing: 10px;
-    justify-content: space-evenly;
-    float: right;
-} */
-/* .nav-div li {
-    display: inline-block;
-    padding-top: -10px;
-} */
