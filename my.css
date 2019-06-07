@@ -1,3 +1,6 @@
+body {
+    max-height: 150px;
+}
 .main {
     display: flex;
     flex-direction: column;
@@ -32,7 +35,7 @@ width: 20px;
 }
 
 .nav-div li button {
-    background-color: blue;
+    background-color: lightblue;
     color: white !important;
 }
 .nav-div{
@@ -61,14 +64,36 @@ width: 20px;
     background-color: lightgray;
     margin-top: 26px;
 }
-/* .nav-div {
+.little-texts {
     display: flex;
     flex-direction: row;
-    word-spacing: 10px;
-    justify-content: space-evenly;
-    float: right;
-} */
-/* .nav-div li {
+    font-weight: 100;
+    margin: 4% auto;
+    padding-bottom: 10%;
+    width: 43%;
+    justify-content: space-around;
+}
+
+.little-texts span {
+    background-color: whitesmoke;
+}
+
+.footer-nav  {
+    display: row;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+
+.footer-list1, .footer-list1 li {
+    list-style: none;
     display: inline-block;
-    padding-top: -10px;
-} */
+    padding-left: 5px;
+    padding-right: 13px;
+}
+
+.footer-list2, .footer-list2 li {
+    list-style: none;
+    padding-left: 13px;
+    padding-right: 5px;
+    float: right;
+}

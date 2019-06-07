@@ -6,25 +6,45 @@
         <title>Google Homepage</title>
     </head>
     <body>
-        <main>
             <!-- this is the navbar -->
-           <div>
-                <ul class="nav-div">
-                    <li><a href="#">Gmail</a></li>
-                    <li><a href="#">Images</a></li>
-                    <li><img src="icon.JPG" alt="logo" class="icon"/></li>
-                    <!-- <li><img src="profile.jpg" alt="logo" class="profile-pix"/></li> -->
-                    <li><button><a href="#">Sign In</a></button></li>
-                </ul>
-           </div>
+           <header>
+               <nav>
+                    <ul class="nav-div">
+                        <li><a href="#">Gmail</a></li>
+                        <li><a href="#">Images</a></li>
+                        <li><img src="icon.JPG" alt="logo" class="icon"/></li>
+                        <li><button><a href="#">Sign In</a></button></li>
+                    </ul>
+                </nav>
+           </header>
 
             <!-- this is the logo and the search input -->
-           <div id="main-div">
+           <main id="main-div">
                 <img src="google-logo.png" alt="img" width="262px" class="logo"/>
                 <form action="#" method="POST">
                     <input class="inputs" type="text" placeholder="Search Google or type a URL">
                 </form>
-           </div>
-        </main>
+                <div class="little-texts">
+                    <button>Google Search</button>
+                    <button>I'm Feeling Lucky </button>
+                </div>
+            </main>
+            <footer>
+                <div>
+                    <nav class="footer-nav">
+                        <ul class="footer-list1">
+                            <li>Advertising</li>
+                            <li>Marketing</li>
+                            <li>About</li>
+                        </ul>
+
+                        <ul class="footer-list2">
+                            <li>Settings</li>
+                            <li>Terms</li>
+                            <li>Privacy</li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
     </body>
 </html>
